@@ -16,11 +16,16 @@ And performs:
 - Scramble mutation
 
 ### Prerequisites
+
 ```
 pip3 install matplotlib
 ```
 
 ### Usage
+
+To run the algorithm, specify the _TSPLIB_ file you would like to search:
 ```
 python3 search.py tsplib_files/berlin52.tsplib
 ```
+
+Parameters that control the search process are defined within the script's main function at [line 191](https://github.com/davisross/evolutionary-search/blob/main/search.py#L191).
